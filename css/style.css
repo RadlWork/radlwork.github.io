@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	height: 100%;
+}
+
+.mBg{
+	position: absolute;
+	z-index: -999;
+	width: 100%;
+	height: 100vh;
+}
+
+.main-header{
+	display: flex;
+}
+
+.header-list{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main-logo{
+	width: 120px;
+}
+
+.header-list li{
+	margin: 3%;
+}
+
+.header-list li:last-child:after {content: none;}
+.header-list a {
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.header-list a, .header-list a:visited {color: #000;}
+.header-list a.current,
+.header-list a:before,
+.header-list a:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #000;
+  transition: 0.5s;
+}
+
+.header-list a:hover:before, .header-list .current:before {left: 0;}
+.header-list a:hover:after, .header-list .current:after {right: 0;} 
+
+.header-list a{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #000;
+}
+
+.des{
+	height: 85vh;
+}
+
+.des p{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 80px;
+	color: #000;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.desTwo{
+	height: 100vh;
+	display: flex;
+
+}
+
+.desTwo p{
+	text-align: left;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 70px;
+	color: #000;
+	padding-top: 10%;
+	width: 50%;
+	padding-left: 2%;
+}
+
+.desTwo img{
+	width: 50%;
+	height: 50%;
+	padding-top: 10%;
+}
+
+.benefits{
+	height: 85vh;
+}
+
+.benefits-cont{
+	display: flex;
+
+}
+
+.benefits h3{
+	text-align: center;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 70px;
+	color: #000;
+}
+
+.benefits ul{
+	margin: 1%;
+	padding-top: 2%;
+	width: 60%;
+}
+
+.benefits li{
+	text-align: left;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #000;
+	margin: 2%;
+}
+
+.benefits img{
+	width: 25%;
+	padding-left: 4%;
+	padding-top: 2%;
+}
+
+.edsite, .plusminus{
+	height: 85vh;
+}
+
+.edsite h1, .plusminus h1{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 80px;
+	color: #000;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.edsiteTwo h3{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 50px;
+	color: #000;
+	text-align: center;
+	padding-top: 6%;
+}
+
+.edsiteTwo p{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #000;
+	margin: 2% 10% 3% 10%;
+}
+
+.imgSite{
+	width: 100%;
+}
+
+
+.scale{
+    display: inline-block;
+	width: 35%;
+	margin-left: 3%;
+}
+
+.scale img{
+    transition: 1s; 
+    display: block; 
+}
+
+.scale img:hover{
+    transform: scale(1.2); 
+}
+
+.imgCenter{
+	text-align: center;
+}
+
+
+.plusminusWidth1, .plusminusWidth2, .plusminusWidth3, .plusminusWidth4 {
+	height: 100vh;
+	display: flex;
+	margin-top: 3%;
+}
+
+
+.pluscont, .minuscont{
+	width: 50%;
+}
+
+.pluscont h3, .minuscont h3{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	color: #000;
+	text-align: center;
+	padding-top: 6%;
+}
+
+.pluscont p, .minuscont p{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #000;
+	margin: 2% 10% 3% 10%;
+}
+
+.plus, .minus{
+	width: 50%;
+	margin-left: 20%;
+}
+
+footer{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 70px;
+	color: #000;
+	text-align: center;
+	margin-top: 15%;
+}
