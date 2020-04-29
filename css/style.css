@@ -310,7 +310,7 @@ footer img{
 	}
 
 	.desTwo p{
-		font-size: 15px;
+		font-size: 40px;
 		width: 1334px;
 	}
 
@@ -335,16 +335,10 @@ footer img{
 		width: 1334px;
 	}
 
-	.edsite h1{
-		margin-top: 20%;
-	}
-
 	.edsiteTwo p{
-		margin: 3%;
-	}
 
-	.plusminus h1{
-		margin-top: 20%;
+		font-size: 40px;
+		margin: 3%;
 	}
 
 	.pluscont, .minuscont{
