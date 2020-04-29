@@ -282,3 +282,77 @@ footer img{
 	margin-top: 2%;
 	width: 15%;
 }
+
+@media screen and (min-width:200px) and (max-width:900px) {
+	html{
+		min-width: 900px;
+	}
+
+	.mBg{
+		width: 1600px;
+		right: -40%;
+	}
+
+	.header-list{
+		margin-top: 3%;
+	}
+
+	.header-list a{
+		font-size: 25px;
+	}
+
+	.des{
+		width: 900px;
+	}
+
+	.desTwo{
+		display: block;
+	}
+
+	.desTwo p{
+		font-size: 15px;
+		width: 900px;
+	}
+
+	.desTwo img{
+		width: 900px;
+	}
+
+	.benefits-cont{
+		width: 900px;
+		display: block;
+	}
+
+	.benefits-cont ul{
+		width: 900px;
+	}
+
+	.benefits-cont img{
+		margin-left: 33%;
+	}
+
+	.edsite{
+		width: 900px;
+	}
+
+	.edsite h1{
+		margin-top: 20%;
+	}
+
+	.edsiteTwo p{
+		margin: 3%;
+	}
+
+	.plusminus h1{
+		margin-top: 20%;
+	}
+
+	.pluscont, .minuscont{
+		height: 810px;
+	}
+
+	footer{
+		width: 900px;
+	}
+}
+
