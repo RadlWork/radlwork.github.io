@@ -306,7 +306,7 @@ footer img{
 	}
 
 	.desTwo{
-		height: 100vh;
+		height: 750px;
 		display: block;
 	}
 
@@ -317,10 +317,11 @@ footer img{
 
 	.desTwo img{
 		width: 720px;
+		margin-left: 15%;
 	}
 
 	.benefits-cont{
-		height: 100vh;
+		height: 750px;
 		width: 1334px;
 		display: block;
 	}
