@@ -4,6 +4,7 @@
 		<title>Плюсы и минусы</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	</head>
 
 	<body>
@@ -13,7 +14,7 @@
 				<a href="index.html"><img class="main-logo" src="img/logo.png"></a>
 				<ul class="header-list">
 					<li><a href="educational.html">Образовательные площадки</a></li>
-					<li><a href="plusminus">Плюсы и минусы</a></li>
+					<li><a href="plusminus.html">Плюсы и минусы</a></li>
 					<li></li>
 					<li></li>
 				</ul>
@@ -24,6 +25,8 @@
 					<h1>Плюсы и минусы дистанционного обучения</h1>
 				</div>
 			</section>
+
+			<div id="topNubex"><img src="img/arrow.png"/></div>
 
 			<section class="blockTwo">
 				<div class="plusminusCont">
@@ -67,7 +70,7 @@
 							<h3>Проблема идентификации пользователя</h3>
 							<p>Пока самый эффективный способ проследить за тем, честно и самостоятельно ли студент сдавал экзамены или зачеты, - это видеонаблюдение, что не всегда возможно. Поэтому на итоговую аттестацию студентам приходится лично приезжать в вуз или его филиалы.</p>
 						</div>
-					</div>-->
+					</div>
 
 					<div class="plusminusWidth4">
 
@@ -85,6 +88,26 @@
 					</div>	
 				</div>
 			</section>
+			<footer>
+				<p class="imgCenter"><a class="scale" href="https://vk.com/public194781328"><img src="img/vk.png"></a></p>
+				<p>Сopyright ©</p>
+				<p>2020</p>
+			</footer>
 		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<script type="text/javascript">
+  		  $(function() {
+  		  $(window).scroll(function() {
+		  if($(this).scrollTop() != 0) {
+		  $('#topNubex').fadeIn();
+		  } else {
+		  $('#topNubex').fadeOut();
+		  }
+		  });
+		  $('#topNubex').click(function() {
+		  $('body,html').animate({scrollTop:0},700);
+		  });
+		  });
+  		</script>
 	</body>
 </html>

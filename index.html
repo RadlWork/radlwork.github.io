@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head >
 		<title>Главная страница</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	</head>
 
 	<body> 
 		<img class="mBg" src="img/des.jpg">
-		<section class="main">
+		<section class="main" id="up">
 			<header class="main-header">
 				<a href="index.html"><img class="main-logo" src="img/logo.png"></a>
 				<ul class="header-list">
@@ -24,7 +25,8 @@
 					<p><strong>Дистанционное обучение</strong> — это самостоятельная форма обучения, информационные технологии в дистанционном обучении являются ведущим средством.</p>
 				</div>
 			</section>	
-
+   
+   			<div id="topNubex"><img src="img/arrow.png"/></div>
 			<section class="blockTwo">
 				<div class="desTwo">
 					<p><strong>Дистанционное обучение</strong> — взаимодействие учителя и учащихся между собой на расстоянии, отражающее все присущие учебному процессу компоненты (цели, содержание, методы, организационные формы, средства обучения) и реализуемое специфичными средствами Интернет-технологий или другими средствами, предусматривающими интерактивность.</p>
@@ -48,11 +50,28 @@
 					</div>
 				</div>
 			</section>
+			
 			<footer>
-				<p>copyright ©</p>
+				<p class="imgCenter"><a class="scale" href="https://vk.com/public194781328"><img src="img/vk.png"></a></p>
+				<p>Copyright ©</p>
 				<p>2020</p>
 			</footer>
 
-		</section>	
+		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
+		<script type="text/javascript">
+  		  $(function() {
+  		  $(window).scroll(function() {
+		  if($(this).scrollTop() != 0) {
+		  $('#topNubex').fadeIn();
+		  } else {
+		  $('#topNubex').fadeOut();
+		  }
+		  });
+		  $('#topNubex').click(function() {
+		  $('body,html').animate({scrollTop:0},700);
+		  });
+		  });
+  		</script>
 	</body>
 </html>
