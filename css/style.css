@@ -283,14 +283,14 @@ footer img{
 	width: 15%;
 }
 
-@media screen and (min-width:200px) and (max-width:720px) {
+@media screen and (min-width:200px) and (max-width:750px) {
 	html{
-		min-width: 720px;
+		min-width: 750px;
 	}
 
 	.mBg{
-		width: 1600px;
-		max-width: 720px;
+		width: 750px;
+		max-width: 750px;
 	}
 
 	.header-list{
@@ -302,7 +302,7 @@ footer img{
 	}
 
 	.des{
-		width: 720px;
+		width: 750px;
 	}
 
 	.desTwo{
@@ -311,20 +311,20 @@ footer img{
 
 	.desTwo p{
 		font-size: 15px;
-		width: 720px;
+		width: 750px;
 	}
 
 	.desTwo img{
-		width: 720px;
+		width: 750px;
 	}
 
 	.benefits-cont{
-		width: 720px;
+		width: 750px;
 		display: block;
 	}
 
 	.benefits-cont ul{
-		width: 720px;
+		width: 750px;
 	}
 
 	.benefits-cont img{
@@ -332,7 +332,7 @@ footer img{
 	}
 
 	.edsite{
-		width: 720px;
+		width: 750px;
 	}
 
 	.edsite h1{
@@ -352,7 +352,7 @@ footer img{
 	}
 
 	footer{
-		width: 720px;
+		width: 750px;
 	}
 }
 
