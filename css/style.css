@@ -283,7 +283,7 @@ footer img{
 	width: 15%;
 }
 
-@media screen and (min-width:200px) and (max-width:900px) {
+@media screen and (min-width:200px) and (max-width:720px) {
 	html{
 		min-width: 900px;
 	}
