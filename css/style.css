@@ -222,6 +222,7 @@ body{
 	background-color: #C7DCA0;
 	margin: 1%;
 	border: black solid 5px;
+	border-radius: 20px;
 
 }
 
@@ -230,6 +231,7 @@ body{
 	background-color: #E78A56;
 	margin: 1%;
 	border: black solid 5px;
+	border-radius: 20px;
 }
 
 .pluscont h3, .minuscont h3{
