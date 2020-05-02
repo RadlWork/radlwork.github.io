@@ -152,11 +152,11 @@ body{
 	padding-top: 2%;
 }
 
-.edsite, .plusminus{
+.edsite, .plusminus, .covid-19{
 	height: 85vh;
 }
 
-.edsite h1, .plusminus h1{
+.edsite h1, .plusminus h1, .covid-19 h1{
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 40px;
 	font-weight: 500;
@@ -263,6 +263,39 @@ body{
 	right: 45px;
 	bottom: 45px;
 	width: 5%;
+}
+
+.covid19Text{
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 45px;
+	color: #000;
+	margin: 5% 3% 3% 3%;
+	width: 40%;
+}
+
+.covid19Cont, .covid19Cont2, .covid19Cont3{
+	display: flex;
+	width: 100%;
+}
+
+.stonks{
+	width: 50%;
+	height: 25%;
+	margin: 5% 3% 3% 1%;
+}
+
+.netology{
+	width: 50%;
+	height: 30%;
+	margin: 6% 3% 3% 3%;
+}
+
+.grafic{
+	width: 40%;
+	height: 50%;
+	margin: 6% 3% 3% 3%;
 }
 
 footer{

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Во время COVID-19</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<img class="mBg" src="img/covid-19.jpg">
+		<section class="main" id="up">
+			<header class="main-header">
+				<a href="index.html"><img class="main-logo" src="img/logo.png"></a>
+				<ul class="header-list">
+					<li><a href="educational.html">Образовательные площадки</a></li>
+					<li><a href="plusminus.html">Плюсы и минусы</a></li>
+					<li><a href="covid-19.html">Во время COVID-19</a></li>
+				</ul>
+			</header>
+
+			<section class="blockOne">
+				<div class="covid-19">
+					<h1>Дистанционное обучение во время пандемии COVID-19</h1>
+				</div>
+			</section>
+
+			<div id="topNubex"><img src="img/arrow.png"/></div>
+
+			<section class="blockTwo">
+				<div class="covid19Cont">
+					<p class="covid19Text">
+						Пандемия и режим самоизоляции привели к настоящему буму в сфере онлайн-образования. Спрос на дистанционные курсы резко взлетел. По данным платформы <a href="https://getcourse.ru/">GetCourse</a>, на которой размещают дистанционные курсы сотни онлайн-школ, уже во второй половине марта продажи курсов выросли на 20% по сравнению с первой половиной месяца: если с 1 по 16 марта курсов было продано на 1,2 млрд руб., то с 17 по 31 марта – уже на 1,5 млрд руб. Число пользователей, пытавшихся организовать собственные курсы, увеличилось при этом на 30%.
+						
+					</p>
+					<img class="stonks" src="img/stonks.png">
+				</div>
+
+				<div class="covid19Cont2">
+					<img class="netology" src="img/netology.jpg">
+					<p class="covid19Text">	
+						А число вновь зарегистрировавшихся пользователей в онлайн-университете «Нетология» во второй половине марта в 4 раза выше по сравнению с любыми обычными двумя неделями года, рассказывает Марианна Снигирева, исполнительный директор онлайн-университета. По ее словам, более всего на платформе выросла аудитория пользователей в возрасте 45–54 года (на 104%), а число пользователей от 35 до 44 лет увеличилось на 80%.
+					</p>
+				</div>
+				<div class="covid19Cont3">	
+					<p class="covid19Text">
+						Из 15 крупных и средних платформ дистанционного обучения, опрошенных «Ведомостями», 12 сообщили о скачке спроса на онлайновые курсы для взрослых в течение марта и начала апреля. 
+					</p>
+					<img class="grafic" src="img/grafic.jpg">
+				</div>
+			</section>
+			<footer>
+				<p class="imgCenter"><a class="scale" href="https://vk.com/public194781328"><img src="img/vk.png"></a></p>
+				<p>Сopyright ©</p>
+				<p>2020</p>
+			</footer>
+		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<script type="text/javascript">
+  		  $(function() {
+  		  $(window).scroll(function() {
+		  if($(this).scrollTop() != 0) {
+		  $('#topNubex').fadeIn();
+		  } else {
+		  $('#topNubex').fadeOut();
+		  }
+		  });
+		  $('#topNubex').click(function() {
+		  $('body,html').animate({scrollTop:0},700);
+		  });
+		  });
+  		</script>	
+	</body>
+</html>
