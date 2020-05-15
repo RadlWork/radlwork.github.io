@@ -7,9 +7,13 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 body{
 	min-height: 600px;
-	min-width: 800px;
+	min-width: 1200px;
 }
 
 .mBg{
@@ -23,6 +27,7 @@ body{
 
 .main-header{
 	display: flex;
+	min-width: 1200px;
 }
 
 .header-list{
@@ -37,7 +42,7 @@ body{
 }
 
 .header-list li{
-	margin: 3%;
+	margin: 3% 2% 2% 2%;
 }
 
 .header-list li:last-child:after {content: none;}
@@ -68,7 +73,7 @@ body{
 
 .header-list a{
 	font-family: "Roboto", Arial, sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 500;
 	line-height: 20px;
 	color: #000;
@@ -108,7 +113,7 @@ body{
 
 .desTwo img{
 	width: 50%;
-	height: 50%;
+	height: 70%;
 	padding-top: 10%;
 }
 
@@ -147,16 +152,16 @@ body{
 }
 
 .benefits img{
-	width: 25%;
+	width: 30%;
 	padding-left: 4%;
 	padding-top: 2%;
 }
 
-.edsite, .plusminus, .covid-19{
+.edsite, .plusminus, .covid-19, .startup{
 	height: 85vh;
 }
 
-.edsite h1, .plusminus h1, .covid-19 h1{
+.edsite h1, .plusminus h1, .covid-19 h1 , .startup h1{
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 40px;
 	font-weight: 500;
@@ -176,7 +181,7 @@ body{
 	padding-top: 6%;
 }
 
-.edsiteTwo p{
+.edsiteTwo p, .descSt p{
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 500;
@@ -298,24 +303,96 @@ body{
 	margin: 6% 3% 3% 3%;
 }
 
-footer{
-	background-color: #9696a2;
-	border-top: 5px solid black;
-	margin-top: 6%;
+.edcrunch{
+	width: 100%;
 }
 
-footer p{
+.startupName{
 	font-family: "Roboto", Arial, sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 500;
-	line-height: 70px;
+	line-height: 45px;
 	color: #000;
 	text-align: center;
+	padding-top: 3%;
+	margin: 3%;
 }
 
-footer img{
-	margin-top: 2%;
-	width: 15%;
+.simplerobot, .coursemetr, .lifelru, .kreativity{
+	width: 20%;
+}
+
+.binom, .beegeek, .edcrunchhack{
+	width: 30%;
+}
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 25px;
 }
 
 
